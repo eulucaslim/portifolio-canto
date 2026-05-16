@@ -11,6 +11,9 @@ const raleway = Raleway({
 export const metadata: Metadata = {
   title: "Portifólio - Lucas de Lima Canto",
   description: "Criado por Canto",
+  icons: {
+    icon: '/icon.png'
+  }
 };
 
 export default function RootLayout({

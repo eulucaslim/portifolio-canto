@@ -5,7 +5,7 @@ export default function MainContent(){
     return (
         <main className="h-screen flex flex-row justify-around">
             <section className='flex flex-col justify-center'>
-                <h1>Olá, me chamo Lucas Canto</h1>
+                <h1>Olá, me chamo Lucas Lima</h1>
                 <h1 className='text-7xl'>
                     Software 
                     <br/> 
@@ -14,11 +14,11 @@ export default function MainContent(){
             </section>
             <aside className='flex flex-col justify-center'>
                 <Image
-                    className='rounded-s-full'
                     src="/profile.jpeg"
                     width={500}
                     height={500}
                     alt="Picture of the author"
+                    className='rounded-s-full'
                 />
             </aside>
             {/* <AboutMe/> */}
